@@ -43,7 +43,7 @@ a {
   transition: .3s all;
   color: #bac964; }
   a:hover, a:focus, a:active {
-    color: #b2c251;
+    color: rgba(255, 255, 255, 0.31);
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -74,7 +74,7 @@ a {
     background: transparent !important; }
     @media (max-width: 991.98px) {
       .site-navbar.bg-light {
-        background: #fff !important;
+        background: rgba(255, 255, 255, 0.1) !important;
         top: 0; }
         .site-navbar.bg-light .navbar-brand {
           display: inline-block;
@@ -96,7 +96,7 @@ a {
   .site-navbar .navbar-nav.active > a {
     color: #bac964 !important; }
   .site-navbar.scrolled {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
     position: fixed;
@@ -108,7 +108,7 @@ a {
     -ms-transform: translateY(0%);
     transform: translateY(0%); }
     .site-navbar.scrolled.bg-light {
-      background: #fff !important; }
+      background: rgba(255, 255, 255, 0.1) !important; }
     .site-navbar.scrolled .navbar-brand {
       display: inline-block;
       font-size: 18px;
@@ -169,7 +169,7 @@ a {
       font-weight: 800; }
     @media (min-width: 768px) {
       .site-hero h1 {
-        font-size: 70px; } }
+        font-size: 75px; } }
   .site-hero h1, .site-hero .lead {
     font-weight: 200;
     color: #fff; }
@@ -272,9 +272,21 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    color: #fff; }
-    .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-      background: #bfa98a; }
+    color: #fff;
+    background-color: #080b0e;
+    border-color: #080b0e;
+  }
+  .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    background: rgba(255, 255, 255, 0.22);
+  }
+
+.btn-link {
+  color: #ffffff;
+}
+.btn-link:hover, .btn-link:focus {
+  color: rgba(255, 255, 255, 0.31);
+  text-decoration: underline;
+}
 
 .progress {
   overflow: visible;
