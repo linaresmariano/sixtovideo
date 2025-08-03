@@ -1,8 +1,9 @@
 body {
   background: #fff;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.665);
   background: #222;
   line-height: 1.7;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 300; }
 
@@ -16,6 +17,7 @@ body {
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 ::-moz-selection {
@@ -35,15 +37,16 @@ h1, h2, h3, h4, h5 {
   font-weight: 200; }
 
 h2 {
+  font-family: "Work Sans", sans-serif;
   font-size: 25px; }
 
 a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
-  color: #bac964; }
+  color: #bbbbbb; }
   a:hover, a:focus, a:active {
-    color: rgba(255, 255, 255, 0.31);
+    color: rgba(255, 255, 255, 0.497);
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -78,6 +81,7 @@ a {
         top: 0; }
         .site-navbar.bg-light .navbar-brand {
           display: inline-block;
+          font-family: "Work Sans", sans-serif;
           font-size: 18px;
           border: 2px solid #000;
           padding: 2px 10px !important;
@@ -94,7 +98,7 @@ a {
       .site-navbar .navbar-nav > li > a {
         color: rgba(0, 0, 0, 0.7) !important; } }
   .site-navbar .navbar-nav.active > a {
-    color: #bac964 !important; }
+    color: #bbbbbb !important; }
   .site-navbar.scrolled {
     background: rgba(255, 255, 255, 0.1);
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
@@ -127,7 +131,7 @@ a {
       -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
       transform: translateY(-100%);
-      background: #bac964 !important; }
+      background: #bbbbbb !important; }
     .site-navbar.scrolled .navbar-brand {
       color: #000; }
     .site-navbar.scrolled .dropdown > a:before {
@@ -135,11 +139,11 @@ a {
     .site-navbar.scrolled .navbar-nav > li > a {
       color: rgba(0, 0, 0, 0.7) !important; }
       .site-navbar.scrolled .navbar-nav > li > a:hover {
-        color: #bac964 !important; }
+        color: #bbbbbb !important; }
       .site-navbar.scrolled .navbar-nav > li > a.active {
-        color: #bac964 !important; }
+        color: #bbbbbb !important; }
     .site-navbar.scrolled .navbar-nav > li.active > a {
-      color: #bac964 !important; }
+      color: #bbbbbb !important; }
 
 .site-hero {
   background-color: #ccc;
@@ -166,10 +170,10 @@ a {
     margin-bottom: 20px;
     display: block; }
     .site-hero h1 strong {
-      font-weight: 800; }
+      font-weight: 600; }
     @media (min-width: 768px) {
       .site-hero h1 {
-        font-size: 75px; } }
+        font-size: 90px; } }
   .site-hero h1, .site-hero .lead {
     font-weight: 200;
     color: #fff; }
@@ -178,7 +182,7 @@ a {
   .site-hero .site-subheading {
     max-width: 640px;
     margin: 0 auto;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.475); }
 
 .site-section {
   padding: 5em 0; }
@@ -193,7 +197,7 @@ a {
     padding-top: 20px;
     font-size: 30px; }
     .section-heading h2 strong {
-      font-weight: 800; }
+      font-weight: 600; }
   .section-heading.text-center h2:before {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -210,8 +214,8 @@ a {
   .site-service-item .icon {
     display: block;
     margin-bottom: 50px;
-    background: #edf0f2;
-    background: #bac964;
+    background: #efefef;
+    background: #bbbbbb;
     width: 100px;
     height: 100px;
     position: relative;
@@ -258,13 +262,14 @@ a {
     .site-list li.site-check {
       padding-left: 30px; }
       .site-list li.site-check:before {
-        color: #bac964;
+        color: #bbbbbb;
         font-size: 16px;
         content: "\ebd3"; }
 
 .btn {
   border-radius: 100px;
   text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
   font-size: 12px;
   letter-spacing: .2rem; }
   .btn:active, .btn:focus {
@@ -293,11 +298,11 @@ a {
   margin-bottom: 26px;
   height: 4px; }
   .progress .progress-bar {
-    background-color: #bac964;
+    background-color: #bbbbbb;
     position: relative;
     border-radius: 4px; }
     .progress .progress-bar span {
-      background-color: #bac964;
+      background-color: #bbbbbb;
       position: absolute;
       bottom: -20px;
       font-size: 10px;
@@ -315,7 +320,7 @@ a {
       position: absolute;
       pointer-events: none;
       border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #bac964;
+      border-bottom-color: #bbbbbb;
       border-width: 5px;
       margin-left: -5px; }
 
@@ -335,9 +340,9 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .filters ul li:hover {
-        color: #bac964; }
+        color: #bbbbbb; }
       .filters ul li.active {
-        color: #bac964; }
+        color: #bbbbbb; }
 
 .single-portfolio {
   margin-bottom: 50px;
@@ -356,7 +361,7 @@ a {
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
   color: #fff;
-  background-color: #bac964;
+  background-color: #bbbbbb;
   margin-left: auto;
   margin-right: auto; }
 
@@ -502,7 +507,7 @@ a {
     display: block;
     font-size: 16px; }
   .resume-item h3 {
-    color: #bac964;
+    color: #bbbbbb;
     font-size: 20px; }
   .resume-item .school {
     color: rgba(255, 255, 255, 0.3); }
@@ -532,7 +537,7 @@ a {
       .blog-entry .blog-entry-text h3 a {
         color: #fff; }
         .blog-entry .blog-entry-text h3 a:hover {
-          color: #bac964; }
+          color: #bbbbbb; }
   .blog-entry .meta {
     font-size: 14px; }
     .blog-entry .meta a {
@@ -540,7 +545,7 @@ a {
       margin-right: 10px;
       color: rgba(255, 255, 255, 0.4); }
       .blog-entry .meta a:hover {
-        color: #bac964; }
+        color: #bbbbbb; }
 
 .form-control {
   border: none !important;
@@ -574,7 +579,7 @@ a {
   list-style: none;
   margin-bottom: 20px; }
   .site-contact-details li > span {
-    color: #2c3e50;
+    color: #494949;
     letter-spacing: .1em;
     font-size: 12px;
     font-weight: 500;
@@ -638,8 +643,8 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 
 
-.great-vibes {
-  font-family: "Great Vibes", cursive;
+.lindsey-signature {
+  font-family: lindsey-signature, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -648,4 +653,10 @@ a {
   display: inline;
   color: #b5b5b5;
   font-size: 25px;
+}
+
+.contact-style {
+  color: #9b9a9a;
+  font-size: 16px;
+  font-weight: 300;
 }
